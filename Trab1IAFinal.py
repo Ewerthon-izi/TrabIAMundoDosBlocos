@@ -53,7 +53,7 @@ class Estado():
             return False
         return True
     #quando uso dentro do objeto ele altera o valor do estado atual e a copia junto
-    #entao decidi fazer manualmente(pergunta que fiz para o senhor e uma de suas sujestoes)
+    #entao decidi fazer manualmente
     def P1toP2(self):
         if(self.getTamPilha1() > 0):
             self.pilha2.append(self.pilha1.pop())
